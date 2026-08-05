@@ -2,8 +2,8 @@ name: Daily Douyin 40s Filter
 
 on:
   schedule:
-    # 10:00 Beijing time (UTC+8) = 02:00 UTC
-    - cron: '0 2 * * *'
+    # 09:00 Beijing time (UTC+8) = 01:00 UTC
+    - cron: '0 1 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
